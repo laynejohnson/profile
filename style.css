@@ -1,0 +1,153 @@
+body  {
+  background-color: #f7f9fc;
+}
+
+h1 {
+  color: #333333;
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  color: #333333;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+h3 {
+  color: #333333;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  color: #333333;
+  font-size: 19px;
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  line-height: 24px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 28px;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+}
+
+a:hover {
+  color: ##8bcdcd;
+}
+
+.img-circle {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.button-yellow {
+  color: #333333;
+  font-family: 'Inter', sans-serif;
+  font-weight: regular;
+  font-size: 17px;
+  background-color: #ffd44b;
+  padding: 18px 18px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+
+}
+
+.button-yellow:hover {
+  color: white;
+  background-color: #8bcdcd;
+  font-weight: regular;
+  transition: background-color .5s, color .5s;
+  box-shadow: 0px 8px 16px rgba(0,0,0, .1);
+}
+
+.card-white {
+  background-color: #fff;
+  padding: 24px;
+  padding-bottom: 45px;
+  margin: 0 auto;
+  box-shadow: 0 4px 16px rgba(0,0,0, .1);
+  text-align: center;
+  margin: 24px;
+  border-radius: 4px;
+  margin: 24px auto;
+  width: 550px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: 30px;
+}
+
+.social-icon {
+  color: #9ba4b4;
+  font-size: 35px;
+}
+
+.social-icon:hover {
+  color: ##8bcdcd;
+
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #9ba4b4;
+}
+
+#text-hello {
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+}
+
+#job-title {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+#location {
+  font-size: 17px;
+  padding-top: 5px;
+  margin-top: 7px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
